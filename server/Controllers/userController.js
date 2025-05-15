@@ -19,6 +19,8 @@ module.exports.login = async (req,res, next)=>{
 
 module.exports.register = async (req,res, next)=>{
     try{    
+        console.log("Register running");
+        
         const {username, email, password } = req.body;
         const usernameCheck =await Users.findOne({username});
         if(usernameCheck)
