@@ -35,8 +35,7 @@ const Login = () => {
           password,
         });
       if (data.status === false) {
-        toast.error(data.msg);
-        alert(data.msg)
+        toast.error("Login failed");
       }
       if (data.status === true) {
         toast.success("Login successfull");
