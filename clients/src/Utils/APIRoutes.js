@@ -1,4 +1,4 @@
-export const host = import.meta.env.VITE_BACKEND_URL;
+export const host = process.env.BACKEND_URL;
 
 export const registerRoute = `${host}/api/auth/register`; 
 export const loginRoute = `${host}/api/auth/login`;
