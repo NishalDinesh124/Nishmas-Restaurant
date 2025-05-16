@@ -101,12 +101,15 @@ const HomePage = () => {
 
       <Section dark >
         <h2>GET IN TOUCH</h2>
-        <p>128 Main Street, City, State 12345</p>
+        <p>124 Meadowbrook Avenue 
+ Sheffield, South Yorkshire 
+ S11 8QT 
+ United Kingdom</p> 
         <p>(129) 456-7890</p>
-        <p>info@restaurant.com</p>
+        <p>Email: nishmasrestaurant@gmail.com</p>
 
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3899.774700202045!2d75.44332842577217!3d12.195727731412088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba44485605a6423%3A0xd889ca9a8834a391!2sNellippara%2C%20Kerala%20670571!5e0!3m2!1sen!2sin!4v1747318734278!5m2!1sen!2sin"
+           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d152260.04986245866!2d-1.6642604539749415!3d53.395807922508816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48790aa9fae8be15%3A0x3e2827f5af06b078!2sSheffield%2C%20UK!5e0!3m2!1sen!2sin!4v1747411508945!5m2!1sen!2sin" 
           width="100%"
           height="400"
           style={{ border: 0, marginTop: "1rem" }}

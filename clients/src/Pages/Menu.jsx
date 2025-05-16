@@ -45,7 +45,79 @@ const menuItems = [
     desc: "Bell peppers, olives, onions",
     price: 13.00,
     img: "https://imgs.search.brave.com/unb06Wbidut6OZW_cH3bJhakT1xMG0RLyfI6jKmfHns/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTEz/NTY0NTk5NS9waG90/by92ZWdnaWUtcGl6/emEtYW5kLXRvcHBp/bmdzLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz1obDdZZjhv/dTlBTVRvSFlfZHRC/OVFjZEhENnhHQU1T/U2o5eEVTQjI1d1g0/PQ"
-  }
+  },
+  {
+    title: "Al-faham",
+    desc: "deliciously smoky dish infused with warm, aromatic Middle Eastern spices.",
+    price: 15.00,
+    img: "https://jamilghar.com/wp-content/uploads/2023/07/Al-Faham-Chicken13-728x728.jpg.webp"
+  },,
+  {
+    title: "Kuzhimanthi",
+    desc: "Basmati rice,chicken or mutton of large piece and Mandi spices.",
+    price: 15.00,
+    img: "https://imgs.search.brave.com/wl42fTHUNdUL3I4efw8Oyus33r29k-TC_CEpdqGBySw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy84/Lzg3L0NoaWNrZW5f/TWFuZGlfQXRfQXJh/Ymlhbl9NYW5kaV9I/eWRlcmFiYWQuanBn"
+  },
+  {
+    title: "Biriyani",
+    desc: "Meat (chicken, goat, beef, lamb,[29] prawn or fish) is the prime ingredient with rice. ",
+    price: 15.00,
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/%22Hyderabadi_Dum_Biryani%22.jpg/1920px-%22Hyderabadi_Dum_Biryani%22.jpg"
+  },
+  {
+    title: "Porotta",
+    desc: " layered South Asian flatbread made from refined flour, eggs and oil.",
+    price: 15.00,
+    img: "https://upload.wikimedia.org/wikipedia/commons/0/0b/Parotta.jpg"
+  }, {
+    title: "Chappati",
+    desc: "Wheat, Atta, Oil",
+    price: 15.00,
+    img: "https://imgs.search.brave.com/GlhIwq0T-4NMEAcqx-jy1VRU7jlaTGIgORLLJpbrhL8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA0LzQ0LzQzLzg2/LzM2MF9GXzQ0NDQz/ODY4MV8yclV2cUFP/UVozQnd4RUhsZnJF/bmVXcGQyNlhGcnQ0/UC5qcGc"
+  }, {
+    title: "Beef fry",
+    desc: "beef, slow-roasted in a mixture of spices, onions, curry leaves, and coconut slivers, fried in coconut oil.",
+    price: 15.00,
+    img: "https://img.onmanorama.com/content/dam/mm/en/food/recipe/images/2024/1/23/beef-fry.jpg?w=1120&h=583"
+  }, {
+    title: "Spaghetti Bolognese",
+    desc: "Pasta with meat sauce",
+    price: 15.00,
+    img: "https://img.freepik.com/free-photo/spaghetti-bolognese-with-parmesan-cheese-white-plate_2829-11092.jpg"
+  }, {
+    title: "Spaghetti Bolognese",
+    desc: "Pasta with meat sauce",
+    price: 15.00,
+    img: "https://img.freepik.com/free-photo/spaghetti-bolognese-with-parmesan-cheese-white-plate_2829-11092.jpg"
+  }, {
+    title: "Spaghetti Bolognese",
+    desc: "Pasta with meat sauce",
+    price: 15.00,
+    img: "https://img.freepik.com/free-photo/spaghetti-bolognese-with-parmesan-cheese-white-plate_2829-11092.jpg"
+  }, {
+    title: "Spaghetti Bolognese",
+    desc: "Pasta with meat sauce",
+    price: 15.00,
+    img: "https://img.freepik.com/free-photo/spaghetti-bolognese-with-parmesan-cheese-white-plate_2829-11092.jpg"
+  },
+   {
+    title: "Spaghetti Bolognese",
+    desc: "Pasta with meat sauce",
+    price: 15.00,
+    img: "https://img.freepik.com/free-photo/spaghetti-bolognese-with-parmesan-cheese-white-plate_2829-11092.jpg"
+  },
+   {
+    title: "Spaghetti Bolognese",
+    desc: "Pasta with meat sauce",
+    price: 15.00,
+    img: "https://img.freepik.com/free-photo/spaghetti-bolognese-with-parmesan-cheese-white-plate_2829-11092.jpg"
+  },
+   {
+    title: "Spaghetti Bolognese",
+    desc: "Pasta with meat sauce",
+    price: 15.00,
+    img: "https://img.freepik.com/free-photo/spaghetti-bolognese-with-parmesan-cheese-white-plate_2829-11092.jpg"
+  },
 ];
 
 const MenuPage = () => {
@@ -202,7 +274,8 @@ const NavButton = styled(Link)`
 
 const ScrollWrapper = styled.div`
   overflow-x: auto;
-
+max-height: 90vh;
+    overflow: auto;
   @media (min-width: 481px) {
     overflow-x: visible;
   }
