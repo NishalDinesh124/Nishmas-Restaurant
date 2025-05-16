@@ -79,44 +79,6 @@ const menuItems = [
     desc: "beef, slow-roasted in a mixture of spices, onions, curry leaves, and coconut slivers, fried in coconut oil.",
     price: 15.00,
     img: "https://img.onmanorama.com/content/dam/mm/en/food/recipe/images/2024/1/23/beef-fry.jpg?w=1120&h=583"
-  }, {
-    title: "Spaghetti Bolognese",
-    desc: "Pasta with meat sauce",
-    price: 15.00,
-    img: "https://img.freepik.com/free-photo/spaghetti-bolognese-with-parmesan-cheese-white-plate_2829-11092.jpg"
-  }, {
-    title: "Spaghetti Bolognese",
-    desc: "Pasta with meat sauce",
-    price: 15.00,
-    img: "https://img.freepik.com/free-photo/spaghetti-bolognese-with-parmesan-cheese-white-plate_2829-11092.jpg"
-  }, {
-    title: "Spaghetti Bolognese",
-    desc: "Pasta with meat sauce",
-    price: 15.00,
-    img: "https://img.freepik.com/free-photo/spaghetti-bolognese-with-parmesan-cheese-white-plate_2829-11092.jpg"
-  }, {
-    title: "Spaghetti Bolognese",
-    desc: "Pasta with meat sauce",
-    price: 15.00,
-    img: "https://img.freepik.com/free-photo/spaghetti-bolognese-with-parmesan-cheese-white-plate_2829-11092.jpg"
-  },
-   {
-    title: "Spaghetti Bolognese",
-    desc: "Pasta with meat sauce",
-    price: 15.00,
-    img: "https://img.freepik.com/free-photo/spaghetti-bolognese-with-parmesan-cheese-white-plate_2829-11092.jpg"
-  },
-   {
-    title: "Spaghetti Bolognese",
-    desc: "Pasta with meat sauce",
-    price: 15.00,
-    img: "https://img.freepik.com/free-photo/spaghetti-bolognese-with-parmesan-cheese-white-plate_2829-11092.jpg"
-  },
-   {
-    title: "Spaghetti Bolognese",
-    desc: "Pasta with meat sauce",
-    price: 15.00,
-    img: "https://img.freepik.com/free-photo/spaghetti-bolognese-with-parmesan-cheese-white-plate_2829-11092.jpg"
   },
 ];
 
