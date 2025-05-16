@@ -37,7 +37,7 @@ const Register = () => {
                     email
                 });
             if (data.status === false) {
-                toast.error("Failed");
+                toast.error(data.msg);
             }
             if (data.status === true) {
                 toast.success("Login successfull");
